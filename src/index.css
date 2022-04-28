@@ -1,0 +1,34 @@
+html{
+  background-image: url(./background.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.window{
+  min-width: 300px;
+  background: #000;
+}
+
+.title-bar-text{
+  font-size: 1rem;
+}
+
+.window-body {
+  padding: 30px;
+}
+
+.window-body img {
+  padding-bottom: 20px;
+}
+
+.window-body p {
+  color: #fff;
+  font-family:  monospace;
+  font-size: 1rem;
+}
