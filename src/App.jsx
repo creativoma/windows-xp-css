@@ -1,5 +1,6 @@
 import React from "react";
 import "xp.css/dist/XP.css";
+import Logo from "../src/logo-windows.svg"
 
 export default function App(){
   return(
@@ -14,7 +15,7 @@ export default function App(){
           </div>
         </div>
         <div className="window-body">
-        <img src="../src/logo-windows.svg" width={200}/>
+        <img src={Logo} width={200}/>
           <p>
           This library relies on the usage of semantic HTML. To make a button, you'll need to <br />
           use a button. Input elements require labels. Icon buttons rely on aria-label. This page <br />
